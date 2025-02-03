@@ -1,0 +1,255 @@
+.navbar-brand {
+  color:black
+}
+.nav-link {
+  color: #F72C5B;
+}
+.navbar-toggler-icon {
+  color: white; 
+}
+.nav1 {
+  text-decoration: none;
+  color: white;
+}
+#img22 {
+  margin-top: 20px;
+}
+.main {
+  height: 600px;
+  background-image:url('https://img.freepik.com/premium-photo/pink-white-bokeh-heart-background_32525-288.jpg?w=740');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.mainimp {
+  height: 840px;
+  background-image:url('https://img.freepik.com/premium-photo/pink-white-bokeh-heart-background_32525-288.jpg?w=740');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+ background: #fdb6c6;
+}
+#wish1{
+  padding-top:60px ;
+  margin-left: 80px;
+  font-size: 70px;
+  color: #F72C5B;
+}
+.songsss {
+  padding-top: 20px;
+  display: flex;
+}
+#playy {
+  width: 130px;
+  height: 30px;
+  background-color: #F72C5B;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.cae1 {
+  height: 50px; 
+  background-color: #F72C5B;
+  text-align: center;
+}
+#date {
+  text-align: center;
+  font-size: 100px;
+  color: #F72C5B;
+  margin-top: 30px;
+}
+#month {
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
+#p1 {
+  margin-left: 85px;
+  color: #f50b80;
+}
+#SpecialWish {
+  margin-left: 85px;
+  height: 40px;
+  border: none;
+  background-color: #F72C5B;
+  color: white;
+  width: 180px;
+}
+#SpecialWish1 {
+  margin-left: 190px;
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  background-color: #F72C5B;
+  color: white;
+  width: 180px;
+}
+#SpecialWish2 {
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  background-color: #F72C5B;
+  color: white;
+  width: 180px;
+}
+.main1 img {
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.card {
+  height: 250px;
+  width: 250px;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+.main2 img {
+  height: 100px;
+  margin-left: 0px;
+}
+#ballon {
+  height: 300px;
+  width: 200px;
+}
+#bl1 {
+  margin-left: 130px;
+}
+.boom {
+  display: flex;
+}
+.ballon {
+  display: flex;
+}
+.imgesss {
+  display: flex;
+}
+#wi {
+  text-align: center;
+  margin-top: 10px;
+  color: #F72C5B;
+}
+#wii {
+  text-align: center;
+  margin-top: 10px;
+  color: #F72C5B;
+}
+.imp img {
+  height: 100px;
+  margin-left: 340px;
+  margin-top: 0px;
+}
+#spech1 {
+  text-align: center;
+  color: #F72C5B;
+  font-size: 30px;
+  margin-left: 0px;
+  padding-top: 40px;
+}
+.special1 {
+  display: flex;
+}
+.special1 img {
+  height:500px;
+
+}
+#specialwish {
+  text-align: center;
+  color: #F72C5B;
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand, .nav-link {
+    font-size: 18px;
+  }
+
+  .navbar-toggler-icon {
+    color: white;
+  }
+  #p1 {
+    margin-left: 0px;
+  }
+  #wi {
+    display: none;
+  }
+  .imp img {
+    margin-top: 20px;
+  }
+  #img55 {
+    width: 470px;
+  }
+  .main, .mainimp {
+    height: auto;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #wish1 {
+    font-size: 40px;
+    margin-left: 0;
+    padding-top: 30px;
+  }
+
+  .songsss {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #playy {
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  #date {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  #month {
+    font-size: 20px;
+  }
+
+  .main1 img, .main2 img, .imp img {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .card {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .boom, .ballon, .imgesss, .special1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .special1 img {
+    height: 300px;
+    width: auto;
+  }
+
+  #SpecialWish, #SpecialWish1, #SpecialWish2 {
+    width: 150px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+  }
+
+  #spech1 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+}
