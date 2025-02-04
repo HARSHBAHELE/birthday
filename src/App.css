@@ -1,8 +1,8 @@
 .navbar-brand {
-  color:black
+  color:#e93a91;
 }
 .nav-link {
-  color: #F72C5B;
+  color: #e93a91;
 }
 .navbar-toggler-icon {
   color: white; 
@@ -23,7 +23,7 @@
   display: flex;
 }
 .mainimp {
-  height: 840px;
+  height: 890px;
   background-image:url('https://img.freepik.com/premium-photo/pink-white-bokeh-heart-background_32525-288.jpg?w=740');
   background-repeat: no-repeat;
   background-position: center;
@@ -102,7 +102,7 @@
   margin-top: 0px;
   margin-left: 30px;
 }
-.card {
+.card111 {
   height: 250px;
   width: 250px;
   margin-left: 240px;
@@ -143,19 +143,36 @@
   margin-left: 340px;
   margin-top: 0px;
 }
+.memories1 {
+  display: flex;
+}
 #spech1 {
   text-align: center;
   color: #F72C5B;
   font-size: 30px;
+  padding-top: 400px;
+}
+#spech2 {
+  text-align: center;
+  color: #F72C5B;
+  font-size: 20px;
   margin-left: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .special1 {
   display: flex;
 }
-.special1 img {
-  height:500px;
-
+#Wings {
+  height:400px;
+  width: 500px;
+}
+.card {
+  width: 300px;
+  background-color:  #fdb6c6;
+}
+.card-img-top {
+  height: 340px;
+  margin-top: 10px;
 }
 #specialwish {
   text-align: center;
@@ -179,14 +196,21 @@
     margin-top: 20px;
   }
   #img55 {
-    width: 470px;
+    width: 450px;
   }
+  .card {
+   margin-left: 60px;
+   margin-top: 20px;
+  } 
   .main, .mainimp {
     height: auto;
     background-size: cover;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  #ballimg {
+   margin-top: 0px;
   }
 
   #wish1 {
@@ -207,12 +231,13 @@
   }
 
   #date {
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 90px;
+    margin-top: 15px;
   }
 
   #month {
     font-size: 20px;
+    padding-top: 10px;
   }
 
   .main1 img, .main2 img, .imp img {
@@ -222,11 +247,13 @@
     display: block;
   }
 
-  .card {
+  .card111 {
     height: 200px;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #F72C5B;
+    border-top: none;
   }
 
   .boom, .ballon, .imgesss, .special1 {
@@ -238,7 +265,9 @@
     height: 300px;
     width: auto;
   }
-
+  .cae1 {
+    margin-top: 0px;
+  }
   #SpecialWish, #SpecialWish1, #SpecialWish2 {
     width: 150px;
     height: 35px;
@@ -246,10 +275,14 @@
     margin-right: auto;
     display: block;
     margin-top: 0px;
+    text-align: center;
   }
-
+  #specialwish {
+    padding-top: 0px;
+  }
   #spech1 {
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 20px;
+    text-align: center;
   }
 }
